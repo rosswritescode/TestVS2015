@@ -11,7 +11,6 @@ namespace TestWeb2
             bundles.Add(new ScriptBundle("~/bundles/angular_app").Include(
                       "~/Scripts/angular_app/app.js",
                       "~/Scripts/angular_app/controllers/*.js",
-                      "~/Scripts/angular_app/controllers/*.js",
                       "~/Scripts/angular_app/factory/*.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
